@@ -7,7 +7,7 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v3
       - name: setup python
-        uses: setup/setup-python@v4
+        uses: setup/setup-python@main
         with:
           python-verson: "3.10"
       - name: install dependencies
